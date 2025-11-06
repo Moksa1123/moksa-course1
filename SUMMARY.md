@@ -1,77 +1,43 @@
-Moksa 客戶網站操作手冊
+# Table of contents
 
-1. 歡迎使用
-
-1.1 如何登入後台
-
-2. WordPress 基礎操作
-
-2.1 認識後台儀表板
-
-2.2 「文章」與「頁面」的差別
-
-2.3 如何發表新文章 (最新消息)
-
-2.4 如何編輯固定頁面 (關於我們)
-
-2.5 如何上傳與管理圖片
-
-3. 核心功能：商品管理
-
-3.1 商品的「分類」與「標籤」
-
-3.2 如何新增「簡單商品」
-
-3.3 如何新增「可變商品」(顏色/尺寸)
-
-3.4 其他商品類型 (虛擬/分組)
-
-4. 核心功能：訂單管理
-
-4.1 如何查看與篩選訂單
-
-4.2 管理者的標準出貨流程
-
-4.3 電子發票如何運作 (綠界)
-
-5. 行銷工具：優惠券
-
-5.1 建立基本優惠券
-
-5.2 進階優惠券 (Advanced Coupons)
-
-5.3 如何設定「買一送一 (BOGO)」
-
-5.4 如何設定「新/舊客」優惠
-
-5.5 如何產生「網址 (URL)」自動套用優惠
-
-5.6 如何設定「依付款/運送方式」折扣
-
-6. 行銷工具：紅利點數
-
-6.1 設定紅利點數 (YITH Points)
-
-6.2 如何手動增減客戶點數
-
-7. 顧客溝通：LINE 整合
-
-7.1 單向自動通知 (Order Notify)
-
-7.2 雙向真人客服 (Order Chatz)
-
-8. 網站優化 (SEO)
-
-8.1 Rank Math SEO 外掛簡介
-
-8.2 如何優化「商品頁面」的 SEO
-
-8.3 什麼是結構化資料 (Schema)
-
-9. 網站日常維護 (必讀)
-
-9.1 定期備份 (UpdraftPlus)
-
-9.2 定期更新 (核心/外掛/佈景)
-
-9.3 網站安全 (Wordfence)
+* [第 1 章：網站基礎與環境 (建議 1 小時)](README.md)
+  * [1.1 什麼是 WordPress 與 WooCommerce？](di-1-zhang-wang-zhan-ji-chu-yu-huan-jing-jian-yi-1-xiao-shi/1.1-shen-mo-shi-wordpress-yu-woocommerce.md)
+  * [1.2 (關鍵) 釐清 WordPress.org 與 WordPress.com](di-1-zhang-wang-zhan-ji-chu-yu-huan-jing-jian-yi-1-xiao-shi/1.2-guan-jian-li-qing-wordpress.org-yu-wordpress.com.md)
+  * [1.3 認識主機、網域與 SSL](di-1-zhang-wang-zhan-ji-chu-yu-huan-jing-jian-yi-1-xiao-shi/1.3-ren-shi-zhu-ji-wang-yu-yu-ssl.md)
+  * [1.4 如何登入後台](di-1-zhang-wang-zhan-ji-chu-yu-huan-jing-jian-yi-1-xiao-shi/1.4-ru-he-deng-ru-hou-tai.md)
+  * [1.5 認識後台儀表板](di-1-zhang-wang-zhan-ji-chu-yu-huan-jing-jian-yi-1-xiao-shi/1.5-ren-shi-hou-tai-yi-biao-ban.md)
+* [第 2 章：核心內容管理 (CMS) (建議 1.5 小時)](di-2-zhang-he-xin-nei-rong-guan-li-cms-jian-yi-1.5-xiao-shi/README.md)
+  * [2.1 「文章」與「頁面」的差別](di-2-zhang-he-xin-nei-rong-guan-li-cms-jian-yi-1.5-xiao-shi/2.1-wen-zhang-yu-ye-mian-de-cha-bie.md)
+  * [2.2 (實作) 如何發表「最新消息」](di-2-zhang-he-xin-nei-rong-guan-li-cms-jian-yi-1.5-xiao-shi/2.2-shi-zuo-ru-he-fa-biao-zui-xin-xiao-xi.md)
+  * [2.3 (實作) 如何編輯「關於我們」](di-2-zhang-he-xin-nei-rong-guan-li-cms-jian-yi-1.5-xiao-shi/2.3-shi-zuo-ru-he-bian-ji-guan-wu-wo-men.md)
+  * [2.4 (實務) 精通媒體庫 (SEO、分類、壓縮)](di-2-zhang-he-xin-nei-rong-guan-li-cms-jian-yi-1.5-xiao-shi/2.4-shi-wu-jing-tong-mei-ti-ku-seo-fen-lei-ya-suo.md)
+* [第 3 章：商店核心設定 (WooCommerce) (建議 2.5 小時)](di-3-zhang-shang-dian-he-xin-she-ding-woocommerce-jian-yi-2.5-xiao-shi/README.md)
+  * [3.1 商店基礎設定（地址、幣別）](di-3-zhang-shang-dian-he-xin-she-ding-woocommerce-jian-yi-2.5-xiao-shi/3.1-shang-dian-ji-chu-she-ding-di-zhi-bi-bie.md)
+  * [3.2 (實作) 運送方式設定（費率、免運、自取）](di-3-zhang-shang-dian-he-xin-she-ding-woocommerce-jian-yi-2.5-xiao-shi/3.2-shi-zuo-yun-song-fang-shi-she-ding-feil-mian-yun-zi-qu.md)
+  * [3.3 (實作) 稅金設定 (含 B2B 未稅情境)](di-3-zhang-shang-dian-he-xin-she-ding-woocommerce-jian-yi-2.5-xiao-shi/3.3-shi-zuo-shui-jin-she-ding-han-b2b-wei-shui-qing-jing.md)
+  * [3.4 商品頁籤設定](di-3-zhang-shang-dian-he-xin-she-ding-woocommerce-jian-yi-2.5-xiao-shi/3.4-shang-pin-ye-qian-she-ding.md)
+  * [3.5 庫存頁籤設定](di-3-zhang-shang-dian-he-xin-she-ding-woocommerce-jian-yi-2.5-xiao-shi/3.5-ku-cun-ye-qian-she-ding.md)
+  * [3.6 (實務) 客製化電子郵件設定](di-3-zhang-shang-dian-he-xin-she-ding-woocommerce-jian-yi-2.5-xiao-shi/3.6-shi-wu-ke-zhi-hua-dian-zi-you-jian-she-ding.md)
+  * [3.7 帳號與隱私權設定](di-3-zhang-shang-dian-he-xin-she-ding-woocommerce-jian-yi-2.5-xiao-shi/3.7-zhang-hao-yu-yin-si-quan-she-ding.md)
+* [第 4 章：(重點) 商品管理系統 (建議 3 小時)](di-4-zhang-zhong-dian-shang-pin-guan-li-xi-tong-jian-yi-3-xiao-shi/README.md)
+  * [4.1 商品的「分類」與「標籤」策略](di-4-zhang-zhong-dian-shang-pin-guan-li-xi-tong-jian-yi-3-xiao-shi/4.1-shang-pin-de-fen-lei-yu-biao-qian-ce-le.md)
+  * [4.2 (實作) 如何上架「簡單商品」](di-4-zhang-zhong-dian-shang-pin-guan-li-xi-tong-jian-yi-3-xiao-shi/4.2-shi-zuo-ru-he-shang-jia-jian-dan-shang-pin.md)
+  * [4.3 (實作) 如何上架「可變商品」](di-4-zhang-zhong-dian-shang-pin-guan-li-xi-tong-jian-yi-3-xiao-shi/4.3-shi-zuo-ru-he-shang-jia-ke-bian-shang-pin.md)
+  * [4.4 商品類型 (虛擬、可下載、分組、聯盟)](di-4-zhang-zhong-dian-shang-pin-guan-li-xi-tong-jian-yi-3-xiao-shi/4.4-shang-pin-lei-xing-xu-ni-ke-xia-zai-fen-zu-lian-meng.md)
+  * [4.5 (實務) 庫存管理 (單品庫存 vs 全域庫存)](di-4-zhang-zhong-dian-shang-pin-guan-li-xi-tong-jian-yi-3-xiao-shi/4.5-shi-wu-ku-cun-guan-li-dan-pin-ku-cun-vs-quan-yu-ku-cun.md)
+  * [4.6 (實務) 商品「屬性」與「標籤」的 SEO 應用](di-4-zhang-zhong-dian-shang-pin-guan-li-xi-tong-jian-yi-3-xiao-shi/4.6-shi-wu-shang-pin-shu-xing-yu-biao-qian-de-seo-ying-yong.md)
+* [第 5 章：(重點) 台灣在地化金流與物流 (建議 3 小時)](di-5-zhang-zhong-dian-tai-wan-zai-di-hua-jin-liu-yu-wu-liu-jian-yi-3-xiao-shi/README.md)
+  * [5.1 台灣電商生態解析 (金物流為什麼要分開？)](di-5-zhang-zhong-dian-tai-wan-zai-di-hua-jin-liu-yu-wu-liu-jian-yi-3-xiao-shi/5.1-tai-wan-dian-shang-sheng-tai-jie-xi-jin-wu-liu-wei-shen-mo-yao-fen-kai.md)
+  * [5.2 (實作) 串接「綠界 ECPay」金流 (信用卡、ATM)](di-5-zhang-zhong-dian-tai-wan-zai-di-hua-jin-liu-yu-wu-liu-jian-yi-3-xiao-shi/5.2-shi-zuo-chuan-jie-ljie-ecpay-jin-liu-xin-yong-ka-atm.md)
+  * [5.3 (實作) 串接「LINE Pay」金流](di-5-zhang-zhong-dian-tai-wan-zai-di-hua-jin-liu-yu-wu-liu-jian-yi-3-xiao-shi/5.3-shi-zuo-chuan-jie-line-pay-jin-liu.md)
+  * [5.4 (實作) 串接「RY Tools」物流 (7-11/全家超商取貨)](di-5-zhang-zhong-dian-tai-wan-zai-di-hua-jin-liu-yu-wu-liu-jian-yi-3-xiao-shi/5.4-shi-zuo-chuan-jie-ry-tools-wu-liu-711-quan-jia-chao-shang-qu-huo.md)
+  * [5.5 (實作) 串接「綠界 ECPay」電子發票](di-5-zhang-zhong-dian-tai-wan-zai-di-hua-jin-liu-yu-wu-liu-jian-yi-3-xiao-shi/5.5-shi-zuo-chuan-jie-ljie-ecpay-dian-zi-fa-piao.md)
+  * [5.6 (實務) 完整結帳流程測試](di-5-zhang-zhong-dian-tai-wan-zai-di-hua-jin-liu-yu-wu-liu-jian-yi-3-xiao-shi/5.6-shi-wu-wan-zheng-jie-zhang-liu-cheng-ce-shi.md)
+  * [5.7 (實務) 整合 Order Notify (管理者新訂單通知)](di-5-zhang-zhong-dian-tai-wan-zai-di-hua-jin-liu-yu-wu-liu-jian-yi-3-xiao-shi/5.7-shi-wu-zheng-he-order-notify-guan-li-zhe-xin-ding-dan-tong-zhi/README.md)
+    * [管理者新訂單通知 (Flex Message 範本)](di-5-zhang-zhong-dian-tai-wan-zai-di-hua-jin-liu-yu-wu-liu-jian-yi-3-xiao-shi/5.7-shi-wu-zheng-he-order-notify-guan-li-zhe-xin-ding-dan-tong-zhi/guan-li-zhe-xin-ding-dan-tong-zhi-flex-message-fan-ben.md)
+* [第 6 章：(重點) 訂單管理與出貨流程 (建議 2.5 小時)](di-6-zhang-zhong-dian-ding-dan-guan-li-yu-chu-huo-liu-cheng-jian-yi-2.5-xiao-shi/README.md)
+  * [6.1 認識訂單狀態 (保留/處理中/已完成)](di-6-zhang-zhong-dian-ding-dan-guan-li-yu-chu-huo-liu-cheng-jian-yi-2.5-xiao-shi/6.1-ren-shi-ding-dan-zhuang-tai-bao-liu-chu-li-zhong-yi-wan-cheng.md)
+  * [6.2 (實作) 管理者的標準出貨流程 (SOP)](di-6-zhang-zhong-dian-ding-dan-guan-li-yu-chu-huo-liu-cheng-jian-yi-2.5-xiao-shi/6.2-shi-zuo-guan-li-zhe-de-biao-zhun-chu-huo-liu-cheng-sop.md)
+  * [6.3 (實作) 如何處理「退款」與「退貨」 (含發票作廢)](di-6-zhang-zhong-dian-ding-dan-guan-li-yu-chu-huo-liu-cheng-jian-yi-2.5-xiao-shi/6.3-shi-zuo-ru-he-chu-li-tui-kuan-yu-tui-huo-han-fa-piao-zuo-fei.md)
+  * [6.4 (實務) 訂單資料匯出 (會計/報稅用)](di-6-zhang-zhong-dian-ding-dan-guan-li-yu-chu-huo-liu-cheng-jian-yi-2.5-xiao-shi/6.4-shi-wu-ding-dan-zi-liao-hui-chu-hui-ji-bao-shui-yong.md)
+  * [6.5 (實務) 顧客溝通 (訂單備註、LINE Chatz)](di-6-zhang-zhong-dian-ding-dan-guan-li-yu-chu-huo-liu-cheng-jian-yi-2.5-xiao-shi/6.5-shi-wu-gu-ke-gou-tong-ding-dan-bei-zhu-line-chatz.md)
